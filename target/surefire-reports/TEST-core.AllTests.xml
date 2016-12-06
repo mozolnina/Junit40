@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.011" errors="0" skipped="0" tests="22" name="core.AllTests">
+<testsuite failures="0" time="0.029" errors="0" skipped="0" tests="22" name="core.AllTests">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin"/>
@@ -62,26 +62,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.004" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 0: Number: 1; isPrime? true]"/>
+  <testcase time="0.008" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 0: Number: 1; isPrime? true]"/>
   <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 1: Number: 2; isPrime? true]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 2: Number: 6; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 3: Number: 19; isPrime? true]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 4: Number: 22; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 5: Number: 31; isPrime? true]"/>
-  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 6: Number: 34; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 2: Number: 6; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 3: Number: 19; isPrime? true]"/>
+  <testcase time="0.002" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 4: Number: 22; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 5: Number: 31; isPrime? true]"/>
+  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 6: Number: 34; isPrime? false]"/>
   <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 7: Number: 44; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 8: Number: 48; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 8: Number: 48; isPrime? false]"/>
   <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 9: Number: 52; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 10: Number: 55; isPrime? false]"/>
-  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 11: Number: 64; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 12: Number: 71; isPrime? true]"/>
-  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 13: Number: 74; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 14: Number: 79; isPrime? true]"/>
-  <testcase time="0.003" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 15: Number: 84; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 16: Number: 85; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 17: Number: 90; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 10: Number: 55; isPrime? false]"/>
+  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 11: Number: 64; isPrime? false]"/>
+  <testcase time="0.002" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 12: Number: 71; isPrime? true]"/>
+  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 13: Number: 74; isPrime? false]"/>
+  <testcase time="0.006" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 14: Number: 79; isPrime? true]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 15: Number: 84; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 16: Number: 85; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 17: Number: 90; isPrime? false]"/>
   <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 18: Number: 93; isPrime? false]"/>
   <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 19: Number: 97; isPrime? true]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 20: Number: 99; isPrime? false]"/>
-  <testcase time="0" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 21: Number: 100; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 20: Number: 99; isPrime? false]"/>
+  <testcase time="0.001" classname="core.PrimeNumberCheckerTest" name="testPrimeNumberChecker[Iteration # 21: Number: 100; isPrime? false]"/>
 </testsuite>
